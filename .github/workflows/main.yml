@@ -1,9 +1,15 @@
-name:	myFirst
-on:	workflow_dispatch
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on: workflow_dispatch
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-   -  name: welcome to git
-      run: echo "first job"
-   -  name: welcome to git2
-      run: echo "second job"
+  firs-job:
+    runs-on:  ubuntu-latest
+    steps:
+      - name: welcome to gith 
+        run: echo "test"
+      - name: second
+        run: echo "secong"
+        
