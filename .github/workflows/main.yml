@@ -1,0 +1,9 @@
+name:	myFirst
+on:	workflow_dispatch
+jobs:
+  runs-on: ubuntu-latest
+     steps:
+       - name: welcome to git
+       run: echo "first job"
+       - name: welcome to git2
+       run: echo "second job"
